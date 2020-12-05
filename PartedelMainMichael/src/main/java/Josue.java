@@ -6,8 +6,10 @@
 
 /**
  *
- * @author h
+ * @author josue
  */
-public class main {
-    
+public class Josue {
+    public static void main(String[] args){
+        System.out.println("Hola Mundo Josue");
+    }
 }
