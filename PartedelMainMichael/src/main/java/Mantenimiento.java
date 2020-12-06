@@ -8,8 +8,6 @@
  *
  * @author josue
  */
-public class Josue {
-    public static void main(String[] args){
-        System.out.println("Hola Mundo Josue");
-    }
+public interface Mantenimiento {
+    public String afinar();
 }
