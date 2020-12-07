@@ -1,3 +1,5 @@
+
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -6,16 +8,9 @@
 
 /**
  *
- * @author michael
+ * @author Michael
+ * Hola :
  */
- 
-import Controlador;
+public class main {
 
-public class Orquesta {
-
-    public void agregarInstrumentoCuerda(String nombre, Estados estado, int cantidadCuerdas){
-    
-    }
-    
 }
-
