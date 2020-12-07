@@ -10,6 +10,13 @@
  */
 public class Percusion extends Instrumento{
     private boolean baquetas;
+
+    public Percusion(String nombre, Estado estado) {
+        super(nombre, estado);
+        baquetas = false;
+    }
+    
+    
     public Percusion(String nombre, Estado estado,boolean baquetas){
         super(nombre,estado);
         this.baquetas=baquetas;
