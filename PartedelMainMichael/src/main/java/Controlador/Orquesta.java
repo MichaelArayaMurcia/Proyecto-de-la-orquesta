@@ -1,8 +1,3 @@
-
-import java.util.ArrayList;
-import java.util.Random;
-
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -15,6 +10,10 @@ import java.util.Random;
  */
  
 //import Controlador;
+
+import java.util.ArrayList;
+import java.util.Random;
+
 
 public class Orquesta {
     private ArrayList<Instrumento> listaInstrumentos = new ArrayList<Instrumento>();
@@ -91,6 +90,15 @@ public class Orquesta {
             }
         }
     }
+
+    public ArrayList<Instrumento> getListaInstrumentos() {
+        return listaInstrumentos;
+    }
+
+    public void setListaInstrumentos(ArrayList<Instrumento> listaInstrumentos) {
+        this.listaInstrumentos = listaInstrumentos;
+    }
+    
     public void ejecutarPartitura(String partitura) throws Exception{
         for (int i = 0; i < listaInstrumentos.size(); i++) {
             Instrumento temp = listaInstrumentos.get(i);
